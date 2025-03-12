@@ -1,0 +1,184 @@
+body {
+    margin: 0 auto;
+    max-width: 600px;
+    
+    font-family: smythe;
+    border: 1px solid black;
+} 
+
+.header-img {
+    max-width: 100%;
+}
+
+.food-menu {
+    display: block;
+    width: 80%;
+    margin: 1.5em auto 0 auto;
+    position: relative;
+    z-index: 1;
+    height: 43vh;
+    overflow-y:auto;
+}
+
+.paying-menu__header {
+    text-align: center;
+    margin: 2em auto;
+    font-weight: 400;
+}
+
+.food-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3.1em 0 0 0 ;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.food-menu-item--description{
+    margin: 0;
+    color:#8B8B8B;
+    margin: 0.35em 0 0.5em 0 ;
+}
+
+p {
+    margin: 0.5em;
+}
+
+.food-menu-item--icon, 
+.food-menu-item-container, 
+.add-btn {
+    display: block;
+    width: fit-content;
+
+    z-index: 1;
+}
+
+.main-label{
+    margin: 0 0 0;
+    font-size: 1.5rem;
+}
+
+.price{
+    display: inline;
+    margin: auto 0 0 auto;
+    font-size: 1.2rem;
+}
+
+.food-menu-item-container {
+    margin: 0 auto 0 1.5em;
+}
+
+.paying-menu{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.ordered-food-items {
+    height: 7.5vh;
+    overflow-y: auto;
+    
+}
+
+.paying-menu__entry {
+    display: flex;
+    padding: 0em;
+    
+}
+
+
+.paying-menu__remove-btn{
+    font-size: 0.75rem;
+    border: none;
+    background-color: white;
+    color: #BBBBBB;
+}
+
+.paying-menu__label{
+    margin-bottom: 0.2em; 
+}
+
+.total-label {
+    border-top: 2px solid black;
+    padding: 0.75em 0;
+    margin-bottom: 2em;
+}
+
+.add-btn {
+    padding: 0.25em 0.55em;
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-radius: 1em;
+    color: #505050;
+    border: 1px solid #adacac;
+    background-color: white;
+}
+
+.green-btn {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 1.5em 0;
+    background-color: #16DB99;
+    border-radius: 0.2em;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.creditcard-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.creditcard-form__header{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input {
+    width: 80%;
+    margin: 2em auto 0 auto;
+    padding: 1em;
+}
+
+.pay-btn {
+    margin: 2em auto 2.5em auto;
+    width: 80%;
+}
+
+.modal{
+    position: absolute;
+    
+    width: 500px;    
+    padding: 0;
+    max-width: 600px;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20em 0.0125em black;
+}
+
+.order-notification {
+    display: block;
+    font-size: 32;
+    color: #065F46;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
